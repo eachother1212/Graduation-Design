@@ -1,0 +1,15 @@
+// 因为vscode有插件一般直接用插件所以不怎么配置
+{
+  "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+          "@/*": [
+              "src/*"
+          ]
+      }
+  },
+  "exclude": [
+      "node_modules",
+      "dist"
+  ]
+}
